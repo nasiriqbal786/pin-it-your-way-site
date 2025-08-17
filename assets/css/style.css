@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #fafafa;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background: #e60023; /* Pinterest red */
+  color: #fff;
+  padding: 2rem 1rem;
+}
+
+header .logo {
+  max-width: 80px;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h1, h2 {
+  color: #e60023;
+}
+
+.cta {
+  display: inline-block;
+  background: #e60023;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.cta:hover {
+  background: #c7001b;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  background: #f2f2f2;
+}
