@@ -9,7 +9,7 @@ body {
 
 header {
   text-align: center;
-  background: #e60023; /* Pinterest red */
+  background: #c7001bc2; /* Pinterest red */
   color: #fff;
   padding: 2rem 1rem;
 }
@@ -30,7 +30,7 @@ h1, h2 {
 
 .cta {
   display: inline-block;
-  background: #e60023;
+  background: #c7001bc2
   color: #fff;
   padding: 0.75rem 1.5rem;
   border-radius: 6px;
