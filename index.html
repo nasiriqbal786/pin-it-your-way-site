@@ -25,12 +25,26 @@
       text-align: center;
     }
     .logo {
-      font-size: 3rem;
-      margin-bottom: 0.5rem;
-      letter-spacing: 1px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 900;
+      font-size: 3.6rem;
+      letter-spacing: 0.2em;
       color: #D46A6A; /* Muted red */
-      font-weight: 700;
+      background: linear-gradient(45deg, #D46A6A, #b44545);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 3px rgba(180, 70, 70, 0.7);
+      transition: color 0.3s ease;
+      user-select: none;
+      cursor: default;
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.2em;
       margin-top: 3rem;
+    }
+    .logo:hover {
+      color: #b44545;
+      text-shadow: 2px 2px 6px rgba(180, 70, 70, 0.9);
     }
     .subtitle {
       color: #666;
