@@ -1,74 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pin Your Way</title>
+  <meta charset="UTF-8">
+  <title>Pin it Your Way – Coming Soon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pin it Your Way is an experimental Pinterest extension project currently in development.">
   <style>
     body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
       margin: 0;
       padding: 0;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    header {
-      background: #e60023;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
+      background: #faf8f6;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      color: #202020;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
     }
     main {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
     }
-    h1, h2 {
-      color: #e60023;
+    .logo {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 900;
+      font-size: 3.6rem;
+      letter-spacing: 0.2em;
+      color: #D46A6A; /* Muted red */
+      background: linear-gradient(45deg, #D46A6A, #b44545);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 3px rgba(180, 70, 70, 0.7);
+      transition: color 0.3s ease;
+      user-select: none;
+      cursor: default;
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.2em;
+      margin-top: 3rem;
+    }
+    .logo:hover {
+      color: #b44545;
+      text-shadow: 2px 2px 6px rgba(180, 70, 70, 0.9);
+    }
+    .subtitle {
+      color: #666;
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+    }
+    .status {
+      background: #ffe6ea;
+      color: #b44545;
+      display: inline-block;
+      padding: 0.6em 1.4em;
+      border-radius: 2em;
+      font-size: 1.1em;
+      margin-bottom: 2.5rem;
+      font-weight: 500;
+    }
+    a.button {
+      display: inline-block;
+      background: #D46A6A; /* Muted red */
+      color: white;
+      text-decoration: none;
+      border-radius: 2em;
+      padding: 0.9em 2em;
+      font-weight: 600;
+      margin-top: 2.2rem;
+      transition: background 0.2s;
+    }
+    a.button:hover {
+      background: #b44545;
     }
     footer {
+      padding: 1.2rem 0;
+      font-size: 0.96rem;
+      color: #777;
       text-align: center;
-      padding: 20px;
-      font-size: 0.9em;
-      background: #f1f1f1;
-      margin-top: 40px;
+      border-top: 1px solid #f1d7de;
+      background: #faf2f7;
     }
-    a {
-      color: #e60023;
+    .links a {
+      color: #D46A6A;
       text-decoration: none;
+      margin: 0 1em;
+    }
+    .links a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Pin Your Way</h1>
-    <p>A better way to save and organize your ideas on Pinterest</p>
-  </header>
   <main>
-    <h2>Work in Progress</h2>
-    <p>
-      Pin Your Way is a browser extension designed to make saving and organizing your pins 
-      faster, simpler, and more intuitive. We’re building it with direct integration into 
-      the official Pinterest API so that your content is saved securely and reliably. 
-    </p>
-    <p>
-      The extension is currently under development. Our focus is on solving common frustrations 
-      with existing tools — making it easier to select boards, manage multiple accounts, 
-      and pin content seamlessly without interruptions.
-    </p>
-    <p>
-      We believe creators and curators deserve a smooth, reliable experience. 
-      That’s what we’re here to build.
-    </p>
-    <p>
-      Want to know more? Stay tuned for updates right here as we make progress.
-    </p>
+    <div class="logo">📌 Pin it Your Way</div>
+    <div class="subtitle">A smarter way to pin to Pinterest<br>(Browser Extension – Work in Progress)</div>
+    <div class="status">This extension project is currently in active development.<br>
+      <span style="font-size:0.92em;">Stay tuned for updates.</span>
+    </div>
+    <a href="privacy.html" class="button">Privacy Policy</a>
   </main>
   <footer>
-    <p>
-      <a href="/privacy.html">Privacy Policy</a> | &copy; 2025 Pin Your Way
-    </p>
+    &copy; 2025 Pin it Your Way. All rights reserved.
+    <div class="links">
+      <a href="privacy.html">Privacy Policy</a>
+      &middot; 
+      <a href="mailto:[email protected]">Contact</a>
+    </div>
   </footer>
 </body>
 </html>
