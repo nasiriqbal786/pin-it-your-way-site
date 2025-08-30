@@ -5,8 +5,9 @@
   <title>Pin it Your Way – Coming Soon</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Pin it Your Way is an experimental Pinterest extension project currently in development.">
+  <link rel="stylesheet" href="/assets/css/style.css">
   <style>
-    body {
+  /*  body {
       margin: 0;
       padding: 0;
       background: #faf8f6;
@@ -29,7 +30,7 @@
       font-weight: 900;
       font-size: 3.6rem;
       letter-spacing: 0.2em;
-      color: #D46A6A; /* Muted red */
+      color: #D46A6A; 
       background: linear-gradient(45deg, #D46A6A, #b44545);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -63,7 +64,7 @@
     }
     a.button {
       display: inline-block;
-      background: #D46A6A; /* Muted red */
+      background: #D46A6A;
       color: white;
       text-decoration: none;
       border-radius: 2em;
@@ -90,7 +91,7 @@
     }
     .links a:hover {
       text-decoration: underline;
-    }
+    }*/
   </style>
 </head>
 <body>
@@ -100,6 +101,63 @@
     <div class="status">This extension project is currently in active development.<br>
       <span style="font-size:0.92em;">Stay tuned for updates.</span>
     </div>
+    <section class="features-wrap" aria-labelledby="features-heading">
+      <h2 id="features-heading">Expected Features</h2>
+      <p class="features-sub">Built on the official Pinterest API for speed, reliability, and privacy.</p>
+
+      <ul class="feature-list">
+        <li class="feature-card">
+          <h3 class="feature-title">One-click save <span class="badge alpha">Alpha</span></h3>
+          <p class="feature-desc">Save from any website with a clean, fast UI that gets out of your way.</p>
+        </li>
+
+        <li class="feature-card">
+          <h3 class="feature-title">Instant board picker</h3>
+          <p class="feature-desc">Type-ahead search and recent boards to file pins exactly where they belong.</p>
+        </li>
+
+        <li class="feature-card">
+          <h3 class="feature-title">Multi-image selection <span class="badge soon">Coming soon</span></h3>
+          <p class="feature-desc">Select multiple images on a page and pin them in one go.</p>
+        </li>
+
+        <li class="feature-card">
+          <h3 class="feature-title">Custom descriptions & hashtags</h3>
+          <p class="feature-desc">Add titles, descriptions, and hashtags before you save.</p>
+        </li>
+
+        <li class="feature-card">
+          <h3 class="feature-title">Alt text support</h3>
+          <p class="feature-desc">Add accessible alt text to your pins as you save them.</p>
+        </li>
+
+        <li class="feature-card">
+          <h3 class="feature-title">Duplicate detection <span class="badge soon">Coming soon</span></h3>
+          <p class="feature-desc">Warns you when an image looks like something you’ve already pinned.</p>
+        </li>
+
+        <li class="feature-card">
+          <h3 class="feature-title">Bulk pinning queue</h3>
+          <p class="feature-desc">Queue pins and let them post in the background—even on flaky connections.</p>
+        </li>
+
+        <li class="feature-card">
+          <h3 class="feature-title">Keyboard shortcuts</h3>
+          <p class="feature-desc">Speed through repetitive tasks with configurable shortcuts.</p>
+        </li>
+
+        <li class="feature-card">
+          <h3 class="feature-title">Account switching <span class="badge soon">Coming soon</span></h3>
+          <p class="feature-desc">Quickly switch between personal and business Pinterest accounts.</p>
+        </li>
+
+        <li class="feature-card">
+          <h3 class="feature-title">Privacy-first</h3>
+          <p class="feature-desc">No scraping. No tracking. Uses only the official Pinterest OAuth & API.</p>
+        </li>
+      </ul>
+    </section>
+
     <a href="privacy.html" class="button">Privacy Policy</a>
   </main>
   <footer>
